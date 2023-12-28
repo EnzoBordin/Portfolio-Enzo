@@ -2,8 +2,8 @@
 :root {
   --main-white: #f0f0f0;
   --main-red: #b51f33;
-  --main-blue: #4d68a8;
-  --main-gray: #303841;
+  --main-blue: #446ac3;
+  --main-gray: #1b222b;
 }
 
 /* Base reset */
@@ -223,7 +223,7 @@ img {
 
 @media (max-width: 28.75em) {
   .projects-section-header {
-    font-size: 4rem;
+    font-size: 6rem;
   }
 }
 
@@ -304,6 +304,21 @@ img {
   margin-left: 10px;
   transform: translateX(0);
   transition: transform 0.3s ease-out;
+}
+
+/* Skills section */
+
+.skills-image{
+  border-radius: 30px;
+  width:220px;
+  height: 210px;
+  filter: drop-shadow(3px 3px rgb(46, 45, 45));
+  transition: transform 0.3s ease;
+}
+
+.skills-image:hover{
+  transform: translateY(-14px);
+  cursor: pointer;
 }
 
 /* Contact section */
