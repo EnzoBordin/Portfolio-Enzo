@@ -310,8 +310,8 @@ img {
 
 .skills-image{
   border-radius: 30px;
-  width:220px;
-  height: 210px;
+  width:180px;
+  height: 180px;
   filter: drop-shadow(3px 3px rgb(46, 45, 45));
   transition: transform 0.3s ease;
 }
